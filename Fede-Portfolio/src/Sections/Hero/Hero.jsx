@@ -5,9 +5,12 @@ import twitterIcon from '../../assets/twitter-light.svg'
 import githubIcon from '../../assets/github-light.svg'
 import linkedinIcon from '../../assets/linkedin-light.svg'
 import CV from '../../assets/cv.pdf'
+import { useTheme } from '../../common/ThemeContext'
 
 
 const Hero = () => {
+  const {theme, toggleTheme} = useTheme();
+
   return (
     <section id='hero'>
       <div className={styles.colorModeContainer}>
