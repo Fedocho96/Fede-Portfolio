@@ -1,11 +1,11 @@
 import './App.css'
+import Hero from './Sections/Hero/Hero'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      hola
+      <Hero/>
     </>
   )
 }
