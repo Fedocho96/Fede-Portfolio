@@ -11,6 +11,8 @@ import { useTheme } from '../../common/ThemeContext'
 const Hero = () => {
   const {theme, toggleTheme} = useTheme();
 
+
+
   return (
     <section id='hero'>
       <div className={styles.colorModeContainer}>
@@ -19,8 +21,9 @@ const Hero = () => {
          alt="profile picture"
          />
         <img className={styles.colorMode}
-         src={themeIcon}
-          alt="Color mode icon"
+         src={themeIcon} 
+         alt="Color mode icon"
+         onClick={toggleTheme}
         />
         <div className={styles.info}>
           <h1>Federico <br/> Rosales</h1>
