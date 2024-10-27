@@ -22,7 +22,7 @@ const Hero = () => {
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
   
   return (
-    <section id='hero'>
+    <section id='hero' className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img className={styles.hero}
          src={heroImg} 
@@ -47,7 +47,7 @@ const Hero = () => {
             <img src={linkedinIcon} alt="" />
             </a>
           </span>
-          <p>With a passion for music, coffe and developing web apps.
+          <p className={styles.description}>With a passion for music, coffe and developing web apps.
              Get in touch
           </p>
           <a href={CV} download>
