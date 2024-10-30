@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Projects.Styles.module.css'
-import fedelogo from '../../../public/logo-fede.jpg'
-import ProjectCard from '../../../common/ProjectCard'
+import fedelogo from '../../public/logo-fede.jpg'
+import ProjectCard from '../../common/ProjectCard'
 
 const Projects = () => {
   return (
