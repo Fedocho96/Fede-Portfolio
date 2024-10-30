@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/portfolioimg.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -36,11 +36,11 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          FEDERICO
           <br />
-          Johnsen
+          Rosales
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>FullStack Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -53,8 +53,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          With a passion for developing web apps, coffe and music.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
